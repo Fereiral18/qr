@@ -13,13 +13,14 @@
 }
 
 .box-container-qr-info{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
     background-color: white;
     width: 380px;
-    height: 600px;
+    height: 500px;
     border-radius: 14px;
 }
 
@@ -31,20 +32,39 @@
     width: 350px;
     height: 300px;
     background-color: #2b7dfa;
+
 }
+
 .qr{
+   
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     
     width: 200px;
     height: 200px;
+    
 }
 .box{
     background-color: white;
-
 }
 
 .box-1{
+    
+    
     background-color: white;
+}
+.box-info-front{
+
+    width: 60%;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top:50px ;
+    text-align: center;
+}
+.box-info-scan{
+    width: 60%;
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
 }
